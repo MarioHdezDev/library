@@ -9,7 +9,7 @@ import {
   FormControlLabel
 } from '@mui/material';
 
-export type ControlledCheckboxProps<T extends FieldValues> = CheckboxProps & UseControllerProps<T> & {label: string}
+export type ControlledCheckboxProps<T extends FieldValues> = CheckboxProps & UseControllerProps<T> & {label: string, name: string}
 
 /**
  * A reusable MUI Checkbox integrated with React Hook Form using `useController`.
